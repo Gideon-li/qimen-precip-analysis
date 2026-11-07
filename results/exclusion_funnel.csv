@@ -1,0 +1,6 @@
+step,count,removed,remaining_after,rule
+bbox_cells,8928,0,8928,"NCSS centers inside 18-54N, 73-135E after edge crop"
+within_60km,2786,6142,2786,nearest project admin centroid <= 60 km; not a sovereign mask
+one_per_2deg_block,272,2514,272,one cell closest to each 2 degree block center
+drop_any_invalid_day,267,5,267,any non-finite or out-of-range day in 2023-2025; not filled with 0
+drop_single_class_2023,267,0,267,2023 has both wet and dry days

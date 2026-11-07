@@ -1,0 +1,28 @@
+奇门遁甲论文 v2 投稿前待补清单（非论文替代）
+日期：2026-11-07 Asia/Shanghai
+
+已写入：作者李浩鹏/Haopeng Li；单位 马来西亚城市大学 / City University Malaysia
+主结果：CPC V1.0 格点实验 run cpc-7276563d90f15c12；commit 4e55230a1bd84ae26495cf67118e8254af4dc8fe；PR https://github.com/Gideon-li/giant-atlas-timber-sage/pull/2
+
+仍待作者确认：
+[ ] 通讯邮箱（请勿使用网站登录账号推断）
+[ ] 院系/职称
+[ ] 基金与编号
+[ ] 作者贡献（CRediT）
+[ ] 利益冲突（须本人声明）
+[ ] 伦理/数据使用说明（若期刊要求）
+[ ] 目标期刊与模板
+[ ] 是否公开代码/预测文件及许可范围
+
+红线复核：
+[ ] 主结果为新CPC实验，非旧67.95%/79.05%
+[ ] F1用全267格，不用0.7077
+[ ] 持续性不写成同输入最优
+[ ] 不写CMA/一手站点/全国3143/严格国境掩码
+[ ] 2025非从未使用外部测试；协议非公开预注册
+[ ] 无人事外推；负增量如实保留
+
+文件：
+- qimen_manuscript_v2_zh.docx / qimen_manuscript_v2_en.docx
+- qimen_manuscript_v2_zh.md / qimen_manuscript_v2_en.md
+- 证据：/workspace/qimen-paper/v2-evidence/

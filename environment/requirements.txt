@@ -1,0 +1,21 @@
+# Experiment-only lock, verified by import on 2026-11-07.
+# Not the production Node app. No CMA data is downloaded by installing these.
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.5.2
+netCDF4==1.7.2
+cftime==1.6.6.1
+joblib==1.6.0
+threadpoolctl==3.8.0
+matplotlib==3.9.2
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.68.0
+kiwisolver==1.5.1
+pillow==13.0.0
+pyparsing==3.1.1
+python-dateutil==4.0.0
+six==1.16.0
+packaging==24.0
+cloudpickle==3.1.2
+tzdata==2026.6

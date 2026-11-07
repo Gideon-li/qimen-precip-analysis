@@ -1,0 +1,26 @@
+{
+  "url": "https://psl.noaa.gov/thredds/ncss/grid/Datasets/cpc_global_precip/precip.2025.nc?var=precip&north=40&south=39&east=117&west=116&horizStride=1&time_start=2025-07-01T00%3A00%3A00Z&time_end=2025-07-07T00%3A00%3A00Z&timeStride=1&accept=netcdf",
+  "path": "/workspace/experiments/cma-qimen-precip/data/cpc/sample_20250701_07.nc",
+  "status": 200,
+  "bytes": 2500,
+  "sha256": "f4ae7795482bb010ebda6d6fe9e1caca6b58b259b23e1c52f2c469dfbb66fb7b",
+  "content_type": "application/x-netcdf",
+  "retrieved_at_utc": "2026-11-07T08:04:51.140497+00:00",
+  "attempt": 1,
+  "values_match_prior_decode": true,
+  "container_sha256_matches_prior_audit": false,
+  "container_hash_note": "NCSS writes a translation timestamp into the file, so the container SHA-256 changes across retrievals. The seven corner millimetre values matched.",
+  "attributes": {
+    "title": "CPC GLOBAL PRCP V1.0 RT",
+    "version": "V1.0",
+    "dataset_title": "CPC GLOBAL PRCP V1.0",
+    "source": "ftp://ftp.cpc.ncep.noaa.gov/precip/CPC_UNI_PRCP/",
+    "references": "https://www.psl.noaa.gov/data/gridded/data.cpc.globalprecip.html",
+    "history": "Updated 2026-01-02 23:30:30",
+    "time_units": "hours since 1900-01-01 00:00:00",
+    "time_calendar": "gregorian",
+    "cell_methods": "time: sum",
+    "units": "mm",
+    "missing_value": -9.969209968386869e+36
+  }
+}

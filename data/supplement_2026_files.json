@@ -1,0 +1,60 @@
+{
+  "end_requested": "2026-11-05",
+  "files": [
+    {
+      "file": "precip_202601.nc",
+      "bytes": 1134708,
+      "sha256": "d0660ce67cf80243e38331cbe9d74939c284859c0232c6ee366e50eafb4fb2c9"
+    },
+    {
+      "file": "precip_202602.nc",
+      "bytes": 1025184,
+      "sha256": "68ce861772690ca1abef799053c49f7a129f60bc11eaada25b38a1dd60658cae"
+    },
+    {
+      "file": "precip_202603.nc",
+      "bytes": 1134708,
+      "sha256": "3df523a27b4e865a2d5afb7ad0bcad5c00411fcf88dc08ecf75ac96b58496302"
+    },
+    {
+      "file": "precip_202604.nc",
+      "bytes": 1098200,
+      "sha256": "33ee180f10373866eb49aba03c42fb7a5f6d0b85e56ff13242cbe24aa6318ee7"
+    },
+    {
+      "file": "precip_202605.nc",
+      "bytes": 1134708,
+      "sha256": "014f984d1246305086ca0a8cd64c99281e7efb2559b7892df98e109bdfe9722b"
+    },
+    {
+      "file": "precip_202606.nc",
+      "bytes": 1098200,
+      "sha256": "c69c46537b82722a689d364275748f6484c8bb46e197d0afbf1f16ec615b5995"
+    },
+    {
+      "file": "precip_202607.nc",
+      "bytes": 1134708,
+      "sha256": "f688f9c1e5466e950ace315cd954cf909bf9417a6b37c05b04be53ed633be2fc"
+    },
+    {
+      "file": "precip_202608.nc",
+      "bytes": 1134708,
+      "sha256": "511fe562753c0dbf00e91ffbfdd813524ccf308ba878abd61903175e0307c3f7"
+    },
+    {
+      "file": "precip_202609.nc",
+      "bytes": 1098200,
+      "sha256": "ac3d8ef300565eadd22b49c9b82266e7bcc05a42edc3586951e13546c0efad80"
+    },
+    {
+      "file": "precip_202610.nc",
+      "bytes": 1134708,
+      "sha256": "2284df77e9a025ca860b4ff051e5544048552d84b5003f9b8d3d413ed8002a83"
+    },
+    {
+      "file": "precip_202611.nc",
+      "bytes": 185500,
+      "sha256": "85d7ef47562caf758bff819df472f44cd9d6fe597eb410550eaa7a403de5b504"
+    }
+  ]
+}

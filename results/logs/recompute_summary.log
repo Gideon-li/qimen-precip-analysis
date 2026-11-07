@@ -1,0 +1,56 @@
+wrote 1406 x 31
+frozen refit season_only_l2 1.0
+frozen refit qimen_plus_season_l2 0.1
+frozen refit qimen_only_l2 0.1
+frozen refit random_forest {'n_estimators': 200, 'max_depth': 4, 'min_samples_leaf': 20}
+frozen refit hist_gradient_boosting {'learning_rate': 0.05, 'max_depth': 3, 'max_iter': 100}
+{
+  "bbox_cells": 8928,
+  "within_60km_of_admin_centroid": 2786,
+  "removed_outside_60km": 6142,
+  "two_degree_block_representatives": 272,
+  "associated_not_chosen_as_block_representative": 2514,
+  "representatives_with_any_invalid_day": 5,
+  "representatives_complete": 267,
+  "complete_but_single_class_in_2023": 0,
+  "kept_for_comparison": 267,
+  "invalid_and_also_single_class_on_observed_days": 5,
+  "arithmetic": "8928 bbox; 2786 within 60 km; 272 block representatives; minus invalid days; minus 2023 single-class. The two drop reasons are sequential, not an extra overlapping five.",
+  "mask_wording": "60 km neighborhood of the project's administrative centroids, then one cell per 2 degree block. Not a sovereign land mask and not a national census."
+}
+train_wet_rate           f1 0.1723 n_f1 267 prec 0.1341 zero_pred 202 bal 0.5000 brier 0.2218
+month_climatology        f1 0.4568 n_f1 267 prec 0.5105 zero_pred 50 bal 0.6075 brier 0.1981
+season_climatology       f1 0.3921 n_f1 267 prec 0.4491 zero_pred 87 bal 0.5876 brier 0.1995
+season_only_l2           f1 0.4415 n_f1 267 prec 0.4762 zero_pred 73 bal 0.6109 brier 0.1923
+qimen_plus_season_l2     f1 0.4242 n_f1 267 prec 0.5229 zero_pred 44 bal 0.5960 brier 0.1970
+qimen_only_l2            f1 0.2699 n_f1 267 prec 0.3572 zero_pred 81 bal 0.5114 brier 0.2216
+random_forest            f1 0.3597 n_f1 267 prec 0.4646 zero_pred 81 bal 0.5763 brier 0.2028
+hist_gradient_boosting   f1 0.4676 n_f1 267 prec 0.5407 zero_pred 8 bal 0.5958 brier 0.2105
+lag1_persistence         f1 0.6646 n_f1 267 prec 0.6652 zero_pred 0 bal 0.7245 brier 0.1793
+deltas {
+  "brier_full_minus_month": {
+    "point": -0.0010979935562327459,
+    "ci95_low": -0.004308566137724733,
+    "ci95_high": 0.002322096784588908,
+    "n_replicates": 400
+  },
+  "brier_full_minus_season_only": {
+    "point": 0.00470282694671606,
+    "ci95_low": 0.0033417345688446292,
+    "ci95_high": 0.006135732753115735,
+    "n_replicates": 400
+  },
+  "balanced_accuracy_full_minus_month": {
+    "point": -0.011491311920410308,
+    "ci95_low": -0.019068764807655455,
+    "ci95_high": -0.00372474047285174,
+    "n_replicates": 400
+  },
+  "f1_full_minus_season_only": {
+    "point": -0.017235680426184508,
+    "ci95_low": -0.025608477550633568,
+    "ci95_high": -0.007388948261939475,
+    "n_replicates": 400
+  }
+}
+pred sha 1d458d9187846c6f579983dff1278846933276938eb9be8f231f2b5d2b62440f

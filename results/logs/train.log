@@ -1,0 +1,18 @@
+wrote 1406 x 31
+cells 267 train (365, 267) val (366, 267) test (365, 267)
+select season_only_l2
+  chose 1.0 val_logloss [{'params': 0.1, 'validation_log_loss': 0.5809015376311987}, {'params': 1.0, 'validation_log_loss': 0.5782211615298005}, {'params': 10.0, 'validation_log_loss': 0.578278219166031}, {'params': 100.0, 'validation_log_loss': 0.5782917649825561}]
+select qimen_plus_season_l2
+  chose 0.1 val_logloss [{'params': 0.1, 'validation_log_loss': 0.5865028836627856}, {'params': 1.0, 'validation_log_loss': 0.5976217978352694}, {'params': 10.0, 'validation_log_loss': 0.6043607295190756}, {'params': 100.0, 'validation_log_loss': 0.606115223340991}]
+select qimen_only_l2
+  chose 0.1 val_logloss [{'params': 0.1, 'validation_log_loss': 0.6368807658468378}, {'params': 1.0, 'validation_log_loss': 0.6483229945891674}, {'params': 10.0, 'validation_log_loss': 0.6531179558852805}, {'params': 100.0, 'validation_log_loss': 0.6544636793932782}]
+select random_forest
+  chose {'n_estimators': 200, 'max_depth': 4, 'min_samples_leaf': 20} val_logloss [{'params': {'n_estimators': 100, 'max_depth': 4, 'min_samples_leaf': 20}, 'validation_log_loss': 0.6017532575197455}, {'params': {'n_estimators': 100, 'max_depth': 8, 'min_samples_leaf': 5}, 'validation_log_loss': 0.6040692825134419}, {'params': {'n_estimators': 200, 'max_depth': 4, 'min_samples_leaf': 20}, 'validation_log_loss': 0.5996896002221812}, {'params': {'n_estimators': 200, 'max_depth': 8, 'min_samples_leaf': 5}, 'validation_log_loss': 0.6033167303124456}]
+select hist_gradient_boosting
+  chose {'learning_rate': 0.05, 'max_depth': 3, 'max_iter': 100} val_logloss [{'params': {'learning_rate': 0.05, 'max_depth': 3, 'max_iter': 100}, 'validation_log_loss': 0.6319277753609613}, {'params': {'learning_rate': 0.05, 'max_depth': 6, 'max_iter': 100}, 'validation_log_loss': 0.6868714205506811}, {'params': {'learning_rate': 0.1, 'max_depth': 3, 'max_iter': 100}, 'validation_log_loss': 0.6799202932270729}, {'params': {'learning_rate': 0.1, 'max_depth': 6, 'max_iter': 100}, 'validation_log_loss': 0.7789339040063612}]
+/workspace/experiments/cma-qimen-precip/cpc_experiment/run_cpc.py:315: RuntimeWarning: Mean of empty slice
+  "precision": float(np.nanmean(precision)),
+/workspace/experiments/cma-qimen-precip/cpc_experiment/run_cpc.py:317: RuntimeWarning: Mean of empty slice
+  "f1": float(np.nanmean(f1)),
+WROTE /workspace/experiments/cma-qimen-precip/runs/cpc-2023-2025/results.json
+brier full 0.19699776679569955 month 0.1980957603519323

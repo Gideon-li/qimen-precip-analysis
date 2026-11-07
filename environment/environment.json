@@ -1,0 +1,13 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.12.113+-x86_64-with-glibc2.39",
+  "numpy": "2.5.4",
+  "scikit_learn": "1.5.2",
+  "netCDF4": "1.7.2",
+  "cftime": "1.6.6.1",
+  "matplotlib": "3.9.2",
+  "tyme4ts": "1.5.2",
+  "gpu_used": false,
+  "production_weights_sha256": "2777979421117c88adbace02c2419b922f257378753870d2368a1bd6a5101d11",
+  "production_weights_changed": false
+}

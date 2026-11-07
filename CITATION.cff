@@ -1,0 +1,91 @@
+cff-version: 1.2.0
+title: "Qimen Dunjia symbolic features versus seasonal baselines for CPC daily precipitation occurrence"
+message: >-
+  If you use these analysis artifacts, cite this repository and the NOAA CPC
+  precipitation product. The manuscripts in manuscript/ are unpublished drafts.
+type: dataset
+authors:
+  - family-names: Li
+    given-names: Haopeng
+    alias: 李浩鹏
+    affiliation: City University Malaysia
+repository-code: "https://github.com/Gideon-li/qimen-precip-analysis"
+url: "https://github.com/Gideon-li/qimen-precip-analysis"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-07"
+keywords:
+  - NOAA CPC
+  - precipitation occurrence
+  - Brier score
+  - Qimen Dunjia
+  - seasonal baseline
+abstract: >-
+  Scored outputs and documentation for one computational experiment.
+  Thirty-one noon Qimen Dunjia symbolic features are compared with seasonal
+  baselines and other models on 267 cells of the NOAA CPC Global Unified
+  Gauge-Based Analysis of Daily Precipitation (V1.0), retrieved through
+  NOAA PSL NCSS. Train 2023, validation 2024, test 2025. On the 2025 test,
+  a per-cell season-only L2 logistic model has Brier score 0.1923 and the
+  Qimen-plus-season model has Brier score 0.1970 (delta +0.0047; circular
+  10-day block bootstrap, 400 draws, 95 percent interval +0.0033 to +0.0061).
+  The sample is a 2-degree lattice near project administrative centroids,
+  not a national census and not China Meteorological Administration station
+  data. No human-affairs outcome is evaluated.
+references:
+  - type: data
+    title: "CPC Global Unified Gauge-Based Analysis of Daily Precipitation"
+    authors:
+      - name: "NOAA Physical Sciences Laboratory"
+    year: 2026
+    url: "https://www.psl.noaa.gov/data/gridded/data.cpc.globalprecip.html"
+    notes: >-
+      Subsets used here carry file attributes title=CPC GLOBAL PRCP V1.0 RT,
+      dataset_title=CPC GLOBAL PRCP V1.0, version=V1.0. Bytes are the NCSS
+      retrieval of 2026-11-07, not a later revision. Accessed 2026-11-07.
+  - type: article
+    title: "A gauge-based analysis of daily precipitation over East Asia"
+    authors:
+      - family-names: Xie
+        given-names: Pingping
+      - family-names: Yatagai
+        given-names: Akiyo
+      - family-names: Chen
+        given-names: Mingyue
+      - family-names: Hayasaka
+        given-names: Tadahiro
+      - family-names: Fukushima
+        given-names: Yoshihiro
+      - family-names: Liu
+        given-names: Changming
+      - family-names: Yang
+        given-names: Song
+    year: 2007
+    journal: "Journal of Hydrometeorology"
+    volume: 8
+    issue: 3
+    start: 607
+    end: 626
+    doi: "10.1175/JHM583.1"
+  - type: article
+    title: "Assessing objective techniques for gauge-based analyses of global daily precipitation"
+    authors:
+      - family-names: Chen
+        given-names: Mingyue
+      - family-names: Shi
+        given-names: Wei
+      - family-names: Xie
+        given-names: Pingping
+      - family-names: Silva
+        given-names: "Viviane B. S."
+      - family-names: Kousky
+        given-names: "Vernon E."
+      - family-names: Higgins
+        given-names: "R. Wayne"
+      - family-names: Janowiak
+        given-names: "John E."
+    year: 2008
+    journal: "Journal of Geophysical Research: Atmospheres"
+    volume: 113
+    doi: "10.1029/2007JD009132"
+    notes: "Article number D04110."
